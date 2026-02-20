@@ -1,0 +1,53 @@
+/* style.css — light custom styles on top of Bootstrap */
+
+body {
+  background-color: #f8f9fa;
+}
+
+#app-header {
+  background: linear-gradient(135deg, #0d6efd 0%, #0a58ca 100%);
+}
+
+#app-header h1 {
+  font-size: 1.6rem;
+  letter-spacing: 0.5px;
+}
+
+#expense-form .form-label {
+  font-weight: 600;
+}
+
+#expense-table thead {
+  background-color: #0d6efd;
+  color: #fff;
+}
+
+#expense-table tbody tr:hover {
+  background-color: #e9f0ff;
+}
+
+.summary-card {
+  border-left: 4px solid #0d6efd;
+}
+
+.summary-card .card-title {
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+  color: #6c757d;
+}
+
+.summary-card .display-6 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #0d6efd;
+}
+
+#alert-box {
+  position: fixed;
+  bottom: 1.5rem;
+  right: 1.5rem;
+  z-index: 1055;
+  min-width: 260px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
